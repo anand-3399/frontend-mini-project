@@ -1,0 +1,319 @@
+*{
+    flex-wrap: wrap;
+}
+.body{
+    color: beige;
+    border: 2px solid red;
+ }
+ header{
+      background-image: url('game.jpeg');
+      background-position: center;
+      border: 3px solid purple;
+      border-radius: 9px;
+      margin: 2px auto;
+      padding: 13px 4px;
+      flex-wrap:wrap ;
+      /* position: relative; */
+  }
+  /* Css Reset */
+  body {
+      font-family: cursive;
+      color: rgb(13, 14, 13);
+      margin: 0px;
+      padding: 0px;
+      background-image:  url("tu.jpg");
+      background-repeat: fixed;
+  }
+
+  .left {
+      display: inline-block;
+      /* border: 2px solid red; */
+      position: absolute;
+      left: 0px;
+      top: 34px;
+      
+  }
+
+  .left img {
+      display: block;
+      width: 124px;
+      margin: -8px auto;
+      border-radius: 50%;
+      /* filter: invert(100%); */
+  }
+
+  .left div {
+      line-height: 19px;
+      font-size: 30px;
+      text-align: center;
+  }
+
+  .mid {
+      display: block;
+      width: 66%;
+      margin: 20px auto;
+      /* border: 2px solid red; */
+  }
+  .right {
+
+      position: absolute;
+      right: 34px;
+      top: 34px;
+      display: inline-block;
+      /* border: 2px solid red; */
+  }
+  .navbar {
+      display: inline-block;
+  }
+
+  .navbar li {
+      font-size: 23px;
+      display: inline-block;
+  }
+
+  .navbar li a {
+      font-weight: bold;
+      color: rgb(240, 230, 230);
+      text-decoration: none;
+      padding: 4px 19px
+  }
+
+  .navbar li a:hover,
+  .navbar li a.active {
+      text-decoration: none;
+      color: magenta;
+      background-color: white;
+      border-radius: 32px;
+      cursor: pointer;;
+  }
+  .btn {
+      font-family: cursive;
+      margin: 0px 2px;
+      background-color: rgb(228, 222, 222);
+      color: white;
+      padding: 4px 11px;
+      border: 2px solid rgb(196, 216, 17);
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+  }
+  .btn:hover{
+      background-color: rgb(187, 218, 11);
+      color: lime;
+      text-decoration: none;
+  }
+  h1{
+      color: rgb(212, 164, 6);
+      display: block;
+     text-align: center;
+     width: 80%;
+     margin: auto;
+      border:0px solid greenyellow;
+      /* border-radius:13px; */
+      font-size: 45px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+      font-variant: inherit;
+      /* background-image: url("tr.png"); */
+      padding: 10px;
+      cursor: pointer;
+      text-shadow: 4px 4px #d31323;
+  }
+
+  .a1:hover{
+      color: rgb(66, 25, 216);
+      text-decoration: none;
+  }
+
+  .exp{
+     color: rgb(204, 248, 10);
+     border:0px solid rgb(255, 0, 0);
+     border-radius: 10px;
+     width: 90%;
+     margin: 1px auto;
+     padding: 0px 0px;
+     background-image: url("tr.png");
+     background-position: left;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 34px;
+     font-weight: bold;
+     cursor: pointer;
+     text-align: center;
+     text-shadow: 2px 2px #0b5ba7;
+  }
+  .exp:hover{
+      color: lawngreen;
+      text-decoration:none;
+  }
+  .name{
+    border-width: 5px;
+    border-color: darkred chartreuse yellow rgb(228, 20, 20);
+    border-radius: 47px;
+    border-style: dotted;
+    height: 210px;
+    width: 99%;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("jpg.jpg");
+    box-shadow: 10px 10px rgb(217, 255, 0);
+}
+
+  .name img{
+      border:2px solid yellow;
+      border-style: dashed;
+      box-shadow: 10px 10px aqua;
+  }
+  button{
+      border: 3px solid navy;
+      background-color: black;
+      border-radius: 26px;
+      text-decoration: none;
+  }
+  .ptr{
+    border: 3px solid #f1a409;
+    border-radius: 45px;
+    width: 430px;
+    margin: 69px auto;
+    padding: 0px 40px;
+    background-color: rgb(12, 17, 17);
+    background-image: url("dj.jpg");
+    background-position: center;
+    box-shadow: 10px 10px rgb(209, 198, 198);
+    float: left;
+  }
+  .ptr h1:hover{
+      color: oldlace;
+      text-decoration: none;
+  }
+  button.trp{
+    color: rgb(6, 204, 204);
+    display: block;
+    float: right;
+    /* display: inline-block; */
+    margin-top: 84px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 2px 2px rgb(238, 234, 14);
+    width: 93px 6px;
+    padding: 0px 25px;
+    box-shadow: 3px 3px rgb(231, 72, 9); 
+    background-image: url("th\ \(14\).jfif");
+    background-position: center;
+  }
+  button.trp:hover,
+  button.trp:active{
+    text-decoration: none;
+      color: rgb(12, 12, 11);
+      text-decoration: none;
+  }
+  button.alt{
+      color: orchid;
+      border:3px solid aquamarine;
+      border-radius: 12px;
+      width: 210px;
+      height: 35px;
+      font-family: cursive;
+      font-size: 22px;
+      font-weight: bold;
+      cursor: pointer;
+  }
+  button.alt:hover{
+      color: bisque;
+  }
+  .mit img{
+      border: 5px solid rgb(190, 79, 5);
+      border-style: groove;
+      border-top-color:  rgb(29, 123, 185);
+      width: 227px;
+      height: 190px;
+      border-radius: 14px;
+      cursor: pointer;
+  }
+  .mit img:hover{
+      background-color: rgb(207, 221, 11);
+      box-shadow: 3px 3px aqua;
+  }
+  p.sit{
+      color: cyan;
+      border:3px solid blueviolet;
+      background-color:blueviolet;
+      font-size: 23px;
+      text-align: center;
+      border-radius: 10px;
+  }
+  .pN{
+    border: 3px solid #f1a409;
+    border-radius: 45px;
+    width: 1589px;
+    margin: 69px auto;
+    padding: 0px 40px;
+    background-color: rgb(12, 17, 17);
+    background-image: url("dj.jpg");
+    background-position: center;
+    box-shadow: 5px 10px rgb(209, 198, 198);
+    float: left;
+    cursor: pointer;
+    text-shadow: rgb(20, 20, 15);
+  }
+  .stick{
+      color: beige;
+      margin-top: -21px;
+      border: 2px solid grey;
+      border-radius: 35px;
+      width: 1207px;
+      float:left
+     
+  }
+  .sit{
+    color: beige;
+    margin-top: 8px;
+    border: 2px solid grey;
+    border-radius: 13px;
+    width: 1642px;
+    float: left;
+
+  }
+  .set{
+    color: beige;
+    margin-top: -22px;
+    border: 2px solid grey;
+    border-radius: 14px;
+    width: 1442px;
+    float: left;
+}
+.see{
+    color: beige;
+    margin-top: 7px;
+    border: 2px solid grey;
+    border-radius: 35px;
+    width: 1186px;
+    float:left
+}
+.left #name{
+    color: bisque;
+    margin-top: 8px;
+}
+.left #jk{
+    color: bisque;
+    margin-top: 8px;
+}
+.left #pk{
+    color: bisque;
+    margin-top: 8px;
+}
+.left #mj{
+    color: bisque;
+    margin-top: 8px;
+}
+.left #nk{
+    color: bisque;
+    margin-top: 8px;
+}
+.left #bk{
+    color: bisque;
+    margin-top: 8px;
+}
+  

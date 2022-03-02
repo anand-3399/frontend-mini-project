@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>feedback.form</title>
+</head>
+
+<body background="54.jpg" >
+
+    <form  method="POST" name="form1"  id="day2b">
+        
+        <fieldset>
+        <legend ><b>personal info :</b></legend>
+        <label style="color: chartreuse;" >FIRST NAME :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label style="color: chartreuse;" >NAME :</label> <br>
+        <input type="text" id="fname1" name="fname" size="10" maxlength="10" >&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="fname1" name="fname" size="10" maxlength="10" > <br> 
+        <label  style="color: chartreuse;">Enter an email :</label><br>
+        <input type="text" maxlength="20" id="e-mail" > <input type="text"  value="@gmail.com" size="10" readonly id="email" ><br><br>
+        <label style="color: chartreuse;"> Mobile no. </label> 
+        <input type="text" maxlength="10" value="+91" size="2"  readonly id="mobile no." ><input type="number"  placeholder="12-3456-7890" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" maxlength="10" ><br><br>
+        <!-- password : --> 
+        <!-- <input type="password" maxlength="10" id="fname1"><br>
+        roll no :
+        <input type="number" maxlength="10" id="fname1" min="1" max="100" step="5" ><br> -->
+        </fieldset><br><br>
+
+        <!-- telephone no. <input type="tel" id="phone" name="phone" placeholder="12-3456-7890" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}"> -->
+        <!-- search here : <input type="search" name="ras" ><br><br> -->
+        <label style="color: chartreuse;">Rate us between(1-5)</label> <input type="range" id="range" name="range" min="1" max="5" ><br><br> 
+        
+        <!-- <label for="gender">Gender :</label><br>
+            <input type="radio" id="gender" name="mygender">Male
+            <input type="radio" id="gender" name="mygender">Female
+            <input type="radio" id="gender" name="mygender">Other<br><br> -->
+            
+            <label style="color: chartreuse;"> category :</label>
+            <select  >
+                <option value="1" selected >cricket</option>
+                <option value="1">football</option>
+                <option value="1" >8ball pool</option>
+                <option value="1">shooting </option>
+                <option value="1">Carrom </option>
+                <option value="1">Baseball </option>
+                <option value="1">Hockey</option>
+                <option value="1">swimming </option>
+                <option value="1">Running</option>
+            </select><br><br>
+            <h4  style="color: chartreuse;"> For grabbing membership opportunities upload here :</h4 >
+            select a file: <input type="file"><br><br> 
+            
+            <h4  style="color: chartreuse;">Enter your views on gaming :</h4>
+        <textarea rows="10" cols="40">
+        </textarea><br><br>
+
+     <!-- Enter D.O.B :
+        <input type="date" maxlength="15" id="date" ><br><br> -->
+        <h4 style="color: chartreuse;">Choose which category you like the most :</h4>    
+        <input type="checkbox"  style="color: chartreuse;" name=radio1" value="1"><b>Mind games </b><br>
+        <input type="checkbox"  style="color: chartreuse;" name=radio2"><b>Sports games</b><br>
+        <input type="checkbox"  style="color: chartreuse;" name=radio2"><b>Action and arcade games</b><br>
+        <input type="checkbox"  style="color: chartreuse;" name=radio2"><b>Shooting games</b> <br>
+        <input type="checkbox"  style="color: chartreuse;" name=radio3"><b>Adventure games</b><br><br>
+
+        <input type="button" onclick="alert('Thanku for submitting your views ')" name="abc" value="click here" ><br>
+        <!-- <a href="project1.html"><input type="button" ></a> -->
+        <input type="submit">
+        <input type="reset" >
+
+</body>
+</form>
+</html>

@@ -1,0 +1,47 @@
+<html>
+<head><title>Review Page</title></head>
+<style type="text/css">
+      body {
+        background-image: url("Ro.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }
+      </style>
+<body>
+<form action="Thank.html"><font face="algerian" color="navy">
+<fieldset ><legend><h2>About You</h2></legend>
+<label for="name">Name:</label><div>
+<input type="text" name="myNAME" id="name"></div><br>
+<label for="email">Email Id:</label><div>
+<input type="email" name="myEmail" id="email"></div><br>
+<label for="number">Phone:</label><div>
+<input type="text" name="myPHONE" value="+91" size="2" readonly>
+<input type="number" name="myPHONE" id="number"></div><br>
+<label for="date">Date of Birth:</label><div>
+<input type="date" name="myDATE" id="date"></div><br>
+Gender: &nbsp;<select name="gender">
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="other">Others</option></select>
+</fieldset><br><br>
+<h3>Rate Us: </h3>
+1<input type="radio" name="radio1"><input type="radio" name="radio1">
+<input type="radio" name="radio1"><input type="radio" name="radio1">
+<input type="radio" name="radio1">5<br><br>
+<h3>Which Games did you like?</h3>
+ <input type="checkbox">
+ <label for="MIND GAME">MIND GAMES</label><br>
+ <input type="checkbox">
+ <label for="ADVENTURE GAMES">ADVENTURE GAMES</label><br>
+ <input type="checkbox">
+ <label for="SPORTS GAMES">SPORTS GAMES</label><br>
+ <input type="checkbox">
+ <label for="ACTION AND ARCADE">ACTION AND ARCADE</label><br><br>
+<div><h3>Any Suggestions:</h3><textarea name="myText" id="" cols="50" rows="5">
+</textarea></div><br><br>
+<input type="submit" name="submit"><br><br>
+<input type="button" name="btn" value="More Info" 
+onclick="alert('Check the About Us Section on our Home Page')">
+<input type="reset" name="reset">
+</form></body></html>
