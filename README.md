@@ -19,7 +19,3 @@ Preview :
 ![image](https://user-images.githubusercontent.com/89749348/190626899-5317cb97-6fc1-4b4b-9efb-172bba7e3b71.png)
 ![image](https://user-images.githubusercontent.com/89749348/190626968-67b61270-a405-4783-93e7-cf8e8c62e25d.png)
 
-
-
-New Project on https://github.com/anand-3399/Gaming-Ninja
-Stay Up-to date
